@@ -33,6 +33,32 @@ function Navbar() {
             </li>
           </ul>
           <button className="resume-btn">Resume</button>
+          <div className="menu-wrap">
+            <input type="checkbox" className="toggler" />
+            <div className="hamburger">
+              <div></div>
+            </div>
+            <div className="menu">
+              <div>
+                <div>
+                  <ul>
+                    <li>
+                      <a href="#">About Me</a>
+                    </li>
+                    <li>
+                      <a href="#">Projects</a>
+                    </li>
+                    <li>
+                      <a href="#">Skills</a>
+                    </li>
+                    <li>
+                      <a href="#">Contact Me</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </nav>
     </>
