@@ -43,17 +43,18 @@ function Navbar() {
                 <div>
                   <ul>
                     <li>
-                      <a href="#">About Me</a>
+                      <a href="#">01. About Me</a>
                     </li>
                     <li>
-                      <a href="#">Projects</a>
+                      <a href="#">02. Projects</a>
                     </li>
                     <li>
-                      <a href="#">Skills</a>
+                      <a href="#">03. Skills</a>
                     </li>
                     <li>
-                      <a href="#">Contact Me</a>
+                      <a href="#">04. Contact Me</a>
                     </li>
+                    <button className="resume-hamburger-btn">Resume</button>
                   </ul>
                 </div>
               </div>
