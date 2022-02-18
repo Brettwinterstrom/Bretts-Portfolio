@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Css/Navbar.css";
 import logo from "../imgs/logo.png";
 
 function Navbar() {
+  const [scrollNav, setScrollNav] = useState(false);
+
   return (
     <>
       <nav className="navbar">
