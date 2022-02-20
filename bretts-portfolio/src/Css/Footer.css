@@ -1,0 +1,89 @@
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(215% + 1.3px);
+  height: 125px;
+}
+
+.wave .shape-fill {
+  fill: #03050a;
+}
+
+footer {
+  color: #a8b2d1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: #0a192f;
+  height: 40vh;
+  width: 100vw;
+}
+
+.footer-text {
+  margin-top: 10rem;
+}
+
+.email {
+  color: #a8b2d1;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.email:hover {
+  color: #64ffda;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.social-link {
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 3rem;
+  font-size: 3rem;
+  list-style: none;
+  transition: all 0.3s;
+}
+
+.social-link:hover {
+  transform: translateY(-0.4rem);
+  color: #64ffda;
+  transition: ease-in 0.2s;
+}
+
+.to-top-btn {
+  color: #a8b2d1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 3rem;
+  font-size: 5rem;
+  list-style: none;
+  transition: all 0.3s;
+}
+
+.to-top-btn:hover {
+  transform: translateY(-0.6rem);
+  color: #64ffda;
+  transition: ease-in 0.2s;
+}
