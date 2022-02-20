@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar" id="top">
         <div className="navbar-container">
           <a href="index.html">
             <img src={logo} className="navbar-logo" alt="logo" />

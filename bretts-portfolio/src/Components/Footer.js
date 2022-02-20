@@ -30,13 +30,30 @@ function Footer() {
           </a>
           <ul className="social-links">
             <li className="social-link">
-              <FaGithub />
+              <a
+                className="social-link"
+                href="https://github.com/Brettwinterstrom"
+                target="_blank"
+              >
+                <FaGithub />
+              </a>
             </li>
             <li className="social-link">
-              <FaLinkedin />
+              <a
+                className="social-link"
+                href="https://www.linkedin.com/in/brettwinterstrom/"
+                target="_blank"
+              >
+                <FaLinkedin />
+              </a>
             </li>
             <li className="social-link">
-              <FaEnvelope />
+              <a
+                className="social-link"
+                href="mailto:brettwinterstrom@gmail.com"
+              >
+                <FaEnvelope />
+              </a>
             </li>
           </ul>
           <a href="#top" class="to-top-btn">
