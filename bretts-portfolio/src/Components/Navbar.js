@@ -9,7 +9,7 @@ function Navbar() {
     <>
       <nav className="navbar" id="top">
         <div className="navbar-container">
-          <a href="index.html">
+          <a>
             <img src={logo} className="navbar-logo" alt="logo" />
           </a>
           <ul className="nav-list">
