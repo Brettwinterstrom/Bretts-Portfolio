@@ -2,7 +2,7 @@
   position: relative;
   right: 0;
   width: 100%;
-  min-height: 65vh;
+  height: 70vh;
   padding: 100px;
   display: flex;
   justify-content: center;
@@ -16,7 +16,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 90vh;
+  height: 70vh;
   object-fit: cover;
   opacity: 0.8;
 }

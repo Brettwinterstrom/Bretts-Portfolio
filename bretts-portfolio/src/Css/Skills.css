@@ -1,0 +1,40 @@
+.skills-section {
+  margin-top: 2rem;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #a8b2d1;
+  font-size: 2rem;
+  height: 20vh;
+}
+
+.skill-header {
+  margin-bottom: 4rem;
+}
+
+section p {
+  color: #64ffda;
+}
+
+ul {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+ul li {
+  cursor: pointer;
+  font-size: 4rem;
+  list-style: none;
+  transition: all 0.3s;
+}
+
+ul li:hover {
+  transform: translateY(-0.4rem);
+  color: #64ffda;
+  transition: ease-in 0.2s;
+}
