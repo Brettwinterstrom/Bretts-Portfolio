@@ -15,7 +15,14 @@ function Card() {
             voluptatem, vitae ducimus rem magnam animi.
           </p>
         </div>
-        <div className="card-links"></div>
+        <div className="card-links">
+          <a href="" className="link">
+            Github Link
+          </a>
+          <a href="" className="link">
+            Live Site
+          </a>
+        </div>
       </div>
     </>
   );

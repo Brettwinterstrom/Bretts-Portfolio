@@ -7,7 +7,7 @@
   align-items: center;
   color: #a8b2d1;
   font-size: 2rem;
-  height: 20vh;
+  height: 30vh;
 }
 
 .skill-header {
@@ -23,12 +23,12 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 8rem;
 }
 
 ul li {
   cursor: pointer;
-  font-size: 4rem;
+  font-size: 6rem;
   list-style: none;
   transition: all 0.3s;
 }

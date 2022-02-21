@@ -7,18 +7,66 @@
   border-radius: 18px;
   background: #0a192f;
   color: #a8b2d1;
-  box-shadow: 5px 5px 15px rgba(10, 25, 47, 0.5);
+  box-shadow: 5px 5px 15px rgba(10, 25, 47, 0.7);
   text-align: center;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px rgba(10, 25, 47, 0.5);
 }
 
 .card-image {
   grid-area: image;
+  background: url(https://tse3.mm.bing.net/th?id=OIP.BYuUgtA7HtAtQ9zVb_5QsQHaE6&pid=Api&P=0&w=248&h=164);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
 }
 
 .card-text {
   grid-area: text;
+  margin: 25px;
+}
+
+.card-text .date {
+  color: #64ffda;
+  font-size: 13px;
+}
+
+.card-text p {
+  color: #a8b2d1;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+.card-text h2 {
+  margin-top: 1rem;
+  font-size: 28px;
 }
 
 .card-links {
   grid-area: links;
+  background: #a8b2d1;
+  display: grid;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: #0a192f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+.link:hover {
+  color: #64ffda;
+  transition: all 0.2s ease-in-out;
 }
