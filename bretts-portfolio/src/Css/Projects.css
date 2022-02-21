@@ -1,0 +1,15 @@
+.project-section {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #a8b2d1;
+  height: 80vh;
+}
+
+.card-section {
+  margin-top: 3rem;
+  display: flex;
+  gap: 3rem;
+}
