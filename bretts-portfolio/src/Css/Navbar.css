@@ -99,7 +99,7 @@
 
 .menu-wrap {
   display: flex;
-  z-index: 5;
+  z-index: 100;
   overflow: hidden;
   display: none;
 }
@@ -132,6 +132,7 @@
   height: 2px;
   background-color: #0a192f;
   display: flex;
+
   align-items: center;
   justify-content: center;
   transition: all 0.4s ease;
@@ -194,7 +195,7 @@
 }
 
 .menu-wrap .menu > div {
-  background: rgb(10, 25, 47, 0.85);
+  background: rgb(10, 25, 47, 0.95);
   border-radius: 50%;
   width: 200vw;
   height: 200vw;
@@ -208,17 +209,22 @@
 
 .menu-wrap .menu > div > div {
   text-align: center;
+
   max-width: 90vw;
   max-height: 100vh;
   opacity: 0;
   transition: opacity 0.4s ease;
 }
 
+.menu ul {
+  flex-direction: column;
+}
+
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color: white;
   font-size: 24px;
-  padding: 3rem;
+  padding: 1.5rem;
   transition: all 0.2s ease;
 }
 

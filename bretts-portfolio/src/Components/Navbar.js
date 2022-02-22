@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "../Css/Navbar.css";
 import logo from "../imgs/logo.png";
+import resume from "../resume.pdf";
 
 function Navbar() {
-  const [scrollNav, setScrollNav] = useState(false);
-
   return (
     <>
       <nav className="navbar" id="top">
@@ -34,7 +33,9 @@ function Navbar() {
               </a>
             </li>
           </ul>
-          <button className="resume-btn">Resume</button>
+          <a href={resume} download>
+            <button className="resume-btn">Resume</button>
+          </a>
           <div className="menu-wrap">
             <input type="checkbox" className="toggler" />
             <div className="hamburger">
@@ -45,18 +46,20 @@ function Navbar() {
                 <div>
                   <ul>
                     <li>
-                      <a href="#">01. About Me</a>
+                      <a href="#about">01. About Me</a>
                     </li>
                     <li>
-                      <a href="#">02. Projects</a>
+                      <a href="#skills">02. Skills</a>
                     </li>
                     <li>
-                      <a href="#">03. Skills</a>
+                      <a href="#projects">03. Projects</a>
                     </li>
                     <li>
-                      <a href="#">04. Contact Me</a>
+                      <a href="#contact">04. Contact Me</a>
                     </li>
-                    <button className="resume-hamburger-btn">Resume</button>
+                    <a href={resume} download>
+                      <button className="resume-hamburger-btn">Resume</button>
+                    </a>
                   </ul>
                 </div>
               </div>
