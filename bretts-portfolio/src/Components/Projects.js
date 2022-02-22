@@ -6,7 +6,7 @@ function Projects() {
   return (
     <>
       <div className="project-section" id="projects">
-        <h1> 02. Projects</h1>
+        <h1> 03. Projects</h1>
         <div className="card-section">
           <Card />
           <Card />

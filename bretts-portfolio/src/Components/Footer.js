@@ -25,6 +25,7 @@ function Footer() {
           </svg>
         </div>
         <div className="footer-text">
+          <h2>04. Contact Me</h2>
           <a className="email" href="mailto:brettwinterstrom@gmail.com">
             Email: brettwinterstrom@gmail.com
           </a>

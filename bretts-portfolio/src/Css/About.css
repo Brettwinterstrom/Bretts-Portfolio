@@ -1,0 +1,44 @@
+.about-me {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: #a8b2d1;
+  height: 90vh;
+  width: 100vw;
+}
+
+.about-me h1 {
+  margin-top: 1rem;
+  font-size: 3rem;
+  color: #64ffda;
+  z-index: 5;
+}
+
+.about-me p {
+  margin-top: 2rem;
+  font-size: 24px;
+  width: 50vw;
+  line-height: 3rem;
+  letter-spacing: 1px;
+  z-index: 5;
+}
+
+.photo {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  border: solid #64ffda;
+  filter: grayscale(100%);
+  transition: all 1s;
+}
+
+.photo:hover {
+  transform: rotate(360deg);
+  filter: grayscale(0%);
+}

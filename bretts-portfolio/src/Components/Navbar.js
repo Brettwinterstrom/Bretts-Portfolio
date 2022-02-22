@@ -19,13 +19,13 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a className="nav-link" href="#projects">
-                <p className="number">02. </p> Projects
+              <a className="nav-link" href="#skills">
+                <p className="number">02. </p> Skills
               </a>
             </li>
             <li>
-              <a className="nav-link" href="#skills">
-                <p className="number">03. </p> Skills
+              <a className="nav-link" href="#projects">
+                <p className="number">03. </p> Projects
               </a>
             </li>
             <li>

@@ -34,6 +34,13 @@ footer {
   margin-top: 13rem;
 }
 
+.footer-text h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-size: 18px;
+}
+
 .email {
   color: #a8b2d1;
   text-decoration: none;
