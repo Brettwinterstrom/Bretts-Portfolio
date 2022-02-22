@@ -7,7 +7,6 @@ function Card() {
       <div className="card">
         <div className="card-image"></div>
         <div className="card-text">
-          <span className="date">4 days ago</span>
           <h2>Post One</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.

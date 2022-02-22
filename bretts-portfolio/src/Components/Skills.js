@@ -7,7 +7,7 @@ function Skills() {
     <>
       <section className="skills-section" id="skills">
         <h1 className="skill-header">03. Skills</h1>
-        <p>These are some technologies I've know and have used recently</p>
+        <p>These are some technologies I know and have used recently</p>
         <ul>
           <li>
             <DiJavascript1 />

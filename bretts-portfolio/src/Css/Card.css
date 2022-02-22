@@ -5,6 +5,7 @@
   grid-template-rows: 210px 210px 80px;
   grid-template-areas: "image" "text" "links";
   border-radius: 18px;
+  border: solid 2px #64ffda;
   background: #0a192f;
   color: #a8b2d1;
   box-shadow: 5px 5px 15px rgba(10, 25, 47, 0.7);
@@ -16,6 +17,11 @@
 .card:hover {
   transform: scale(1.1);
   box-shadow: 5px 5px 15px rgba(10, 25, 47, 0.5);
+}
+
+.card:hover h2 {
+  transition: all 0.4s ease-in-out;
+  color: #64ffda;
 }
 
 .card-image {
@@ -31,16 +37,10 @@
   margin: 25px;
 }
 
-.card-text .date {
-  color: #64ffda;
-  font-size: 13px;
-}
-
 .card-text p {
-  color: #a8b2d1;
   font-size: 15px;
   font-weight: 300;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .card-text h2 {
@@ -50,15 +50,16 @@
 
 .card-links {
   grid-area: links;
-  background: #a8b2d1;
+  background: #0a192f;
   display: grid;
+  border-top: solid 1px #64ffda;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
 
 .link {
   text-decoration: none;
-  color: #0a192f;
+  color: #a8b2d1;
   display: flex;
   align-items: center;
   justify-content: center;
