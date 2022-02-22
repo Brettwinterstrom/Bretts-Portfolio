@@ -36,35 +36,6 @@ function Navbar() {
           <a href={resume} download>
             <button className="resume-btn">Resume</button>
           </a>
-          <div className="menu-wrap">
-            <input type="checkbox" className="toggler" />
-            <div className="hamburger">
-              <div></div>
-            </div>
-            <div className="menu">
-              <div>
-                <div>
-                  <ul>
-                    <li>
-                      <a href="#about">01. About Me</a>
-                    </li>
-                    <li>
-                      <a href="#skills">02. Skills</a>
-                    </li>
-                    <li>
-                      <a href="#projects">03. Projects</a>
-                    </li>
-                    <li>
-                      <a href="#contact">04. Contact Me</a>
-                    </li>
-                    <a href={resume} download>
-                      <button className="resume-hamburger-btn">Resume</button>
-                    </a>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </nav>
     </>

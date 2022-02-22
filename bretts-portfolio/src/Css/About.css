@@ -1,13 +1,12 @@
 .about-me {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: black;
   color: #a8b2d1;
-  height: 90vh;
-  width: 100vw;
+  height: 90%;
+  width: 100%;
 }
 
 .about-me h1 {
@@ -41,4 +40,7 @@
 .photo:hover {
   transform: rotate(360deg);
   filter: grayscale(0%);
+}
+
+@media (max-width: 820px) {
 }
