@@ -6,7 +6,7 @@ import Typewriter from "typewriter-effect";
 function Hero() {
   return (
     <>
-      <section className="hero">
+      <section className="hero" id="top">
         <video src={Stars} muted loop autoPlay></video>
         <div className="text">
           <p>Hi, my name is</p>

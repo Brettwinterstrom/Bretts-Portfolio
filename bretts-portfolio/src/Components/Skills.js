@@ -23,7 +23,7 @@ function Skills() {
         <p className="subtext">
           These are some technologies I know and have used recently
         </p>
-        <ul>
+        <ul className="skills-list">
           <li>
             <DiJavascript1 />
           </li>

@@ -19,7 +19,7 @@ section p {
   color: #64ffda;
 }
 
-ul {
+.skills-list {
   margin-top: 4rem;
   display: flex;
   justify-content: center;
@@ -27,7 +27,7 @@ ul {
   gap: 8rem;
 }
 
-ul li {
+.skills-list li {
   cursor: pointer;
   font-size: 6rem;
   list-style: none;
@@ -35,7 +35,7 @@ ul li {
   margin-bottom: 3rem;
 }
 
-ul li:hover {
+.skills-list li:hover {
   transform: translateY(-0.4rem);
   color: #64ffda;
   transition: ease-in 0.2s;
