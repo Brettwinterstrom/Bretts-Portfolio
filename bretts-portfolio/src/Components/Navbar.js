@@ -6,7 +6,7 @@ import resume from "../resume.pdf";
 function Navbar() {
   return (
     <>
-      <nav className="navbar" id="top">
+      <nav className="navbar active" id="top">
         <div className="navbar-container">
           <a>
             <img src={logo} className="navbar-logo" alt="logo" />
