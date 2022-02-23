@@ -46,3 +46,15 @@
   margin-top: 2rem;
   color: #64ffda;
 }
+
+@media (max-width: 820px) {
+  .text h1 {
+    font-size: 6.5rem;
+  }
+}
+
+@media (max-width: 415px) {
+  .text h1 {
+    font-size: 5rem;
+  }
+}

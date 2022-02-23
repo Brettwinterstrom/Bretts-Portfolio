@@ -20,7 +20,9 @@ function Skills() {
       </div>
       <section className="skills-section">
         <h1 className="skill-header">02. Skills</h1>
-        <p>These are some technologies I know and have used recently</p>
+        <p className="subtext">
+          These are some technologies I know and have used recently
+        </p>
         <ul>
           <li>
             <DiJavascript1 />

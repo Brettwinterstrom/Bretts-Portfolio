@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   color: #a8b2d1;
-  height: 90vh;
+  z-index: 15;
 }
 
 .card-section {
@@ -17,4 +17,29 @@
 h1 {
   font-size: 3rem;
   margin-bottom: 5rem;
+}
+
+@media (max-width: 1350px) {
+  .card-section {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .card-section {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .card-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
