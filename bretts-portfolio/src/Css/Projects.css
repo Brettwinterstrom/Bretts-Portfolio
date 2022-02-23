@@ -14,9 +14,9 @@
   gap: 3rem;
 }
 
-h1 {
+.project-section h1 {
   font-size: 3rem;
-  margin-top: 15rem;
+  margin-top: 20rem;
   margin-bottom: 5rem;
 }
 

@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(rgb(10, 25, 47) 80%, transparent);
+  background: #0a192f;
   width: 99%;
   height: auto;
   padding: 20px;
@@ -48,7 +48,7 @@
 
 .nav-link:hover {
   color: #64ffda;
-  font-size: 3rem;
+  transform: translateY(-0.4rem);
 }
 
 .nav-link:hover p {
@@ -100,10 +100,18 @@
 }
 
 @media (max-width: 950px) {
-  .menu-wrap {
-    display: block;
+  .nav-link {
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    color: #ccd6f6;
+    font-weight: 500;
+    font-size: 1.75rem;
+    transition: all 0.3s;
   }
+}
 
+@media (max-width: 750px) {
   .resume-btn {
     display: none;
   }
