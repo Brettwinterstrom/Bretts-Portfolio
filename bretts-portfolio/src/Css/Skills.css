@@ -81,7 +81,7 @@ section p {
 }
 
 @media (max-width: 950px) {
-  ul {
+  .skills-list {
     margin-top: 4rem;
     display: flex;
     justify-content: center;

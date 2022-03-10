@@ -1,10 +1,11 @@
 import NavLinks from "./Navlinks";
+import "../Css/Navbar.css";
 
 const Navigation = () => {
   return (
-    <nav className="navbar-container">
+    <div className="navbar main-nav">
       <NavLinks />
-    </nav>
+    </div>
   );
 };
 
