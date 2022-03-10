@@ -29,10 +29,10 @@
 
 .card-image {
   grid-area: image;
-  background: url(https://tse3.mm.bing.net/th?id=OIP.BYuUgtA7HtAtQ9zVb_5QsQHaE6&pid=Api&P=0&w=248&h=164);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  background-size: cover;
+  width: 300px;
+  height: 210px;
 }
 
 .card-text {

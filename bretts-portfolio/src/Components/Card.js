@@ -1,24 +1,21 @@
 import React from "react";
 import "../Css/Card.css";
 
-function Card() {
+function Card({ name, img, description, github, live }) {
   return (
     <>
       <div className="card">
-        <div className="card-image"></div>
+        <img className="card-image" src={img}></img>
+
         <div className="card-text">
-          <h2>Post One</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Perferendis voluptatibus officiis pariatur. Impedit ullam
-            voluptatem, vitae ducimus rem magnam animi.
-          </p>
+          <h2>{name}</h2>
+          <p>{description}</p>
         </div>
         <div className="card-links">
-          <a href="" className="link">
+          <a href={github} target="_blank" className="link">
             Github Link
           </a>
-          <a href="" className="link">
+          <a href={live} target="_blank" className="link">
             Live Site
           </a>
         </div>
