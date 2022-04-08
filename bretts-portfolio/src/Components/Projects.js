@@ -2,6 +2,7 @@ import React from "react";
 import "../Css/Projects.css";
 import Card from "./Card";
 import crypto from "../imgs/Crypto-Tracker-img.PNG";
+import personal from "../imgs/Personal-Site.PNG";
 
 function Projects() {
   return (
@@ -17,10 +18,11 @@ function Projects() {
             live="https://trackmycryptos.netlify.app/"
           />
           <Card
-            name="Crypto Tracker"
-            description="This is a crypto tracking app that shows the up to date prices of all the most popular cryptos."
-            github="https://github.com/Brettwinterstrom/Crypto-Tracker"
-            live="https://trackmycryptos.netlify.app/"
+            name="Personal website"
+            img={personal}
+            description="This is the site you're currently on now. I'm proud of my personal website and I think it showcases my front end skills nicely. It's my favorite website I've made so far I hope you're enjoying it."
+            github="https://github.com/Brettwinterstrom/Bretts-Portfolio"
+            live="https://brettwportfolio.netlify.app/"
           />
         </div>
       </div>
