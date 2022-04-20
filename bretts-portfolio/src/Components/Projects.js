@@ -4,6 +4,7 @@ import Card from "./Card";
 import crypto from "../imgs/Crypto-Tracker-img.PNG";
 import personal from "../imgs/Personal-Site.PNG";
 import notes from "../imgs/notes app.PNG";
+import movies from "../imgs/movielist.PNG";
 
 function Projects() {
   return (
@@ -19,10 +20,17 @@ function Projects() {
             live="https://trackmycryptos.netlify.app/"
           />
           <Card
+            name="Movie Watchlist"
+            img={movies}
+            description="This app uitilizes the tmdb api and uses react hooks and context api. The app allows you to search the tmdb api and add a movie to either a watchlist or a list of movies you've already watched and allows to move movies from list to list."
+            github="https://github.com/Brettwinterstrom/Crypto-Tracker"
+            live="https://moviezwatchlist.netlify.app/"
+          />
+          <Card
             name="Personal website"
             img={personal}
             description="This is the site you're currently on now. I'm proud of my personal website and I think it showcases my front end skills nicely. It's my favorite website I've made so far I hope you're enjoying it."
-            github="https://github.com/Brettwinterstrom/Bretts-Portfolio"
+            github="https://github.com/Brettwinterstrom/Movie-app"
             live="https://brettwportfolio.netlify.app/"
           />
           <Card
