@@ -14,7 +14,7 @@ function About() {
         />
         <p>
           Hello! My name is Brett and I'm a web developer who enjoys creating
-          clean and beautiful websites. I'v been developing for about a year at
+          clean and beautiful websites. I've been developing for about a year at
           this point and started my journey into programming at UCSD's Full
           Stack extension program. That program gave me the skills and
           confidence to transform my ideas into real websites for the world to
